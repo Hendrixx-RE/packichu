@@ -731,6 +731,7 @@ func (m Model) renderPackageList(w, h int) string {
 	return sb.String()
 }
 
+// renderPkgLine formats a package row with selection, update, and hover indicators.
 func (m Model) renderPkgLine(p pm.Package, width int, checked bool, hovered bool) string {
 	var infoStr string
 	switch m.sortMode {
