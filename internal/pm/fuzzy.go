@@ -151,6 +151,7 @@ func scoreSubsequence(query, target string) (int, bool) {
 	return score, true
 }
 
+// isBoundaryRune reports whether r separates words for fuzzy-match scoring.
 func isBoundaryRune(r rune) bool {
 	return r == '-' || r == '_' || r == '/' || r == '.' || r == ' ' || unicode.IsUpper(r)
 }
