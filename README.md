@@ -320,3 +320,4 @@ MIT License. See [LICENSE](LICENSE) for details.
 hello world
 Philippians 4:13 - I can do all things through Christ which strengtheneth me.
 Psalm 23:1 - The Lord is my shepherd; I shall not want.
+Proverbs 3:5 - Trust in the Lord with all thine heart; and lean not unto thine own understanding.
